@@ -1,0 +1,53 @@
+févr. 05, 2018 5:34:47 PM test.TestSouscriptionUKMultiExcel testCaseSouscriptionUserExist
+INFOS: Execute TestSouscriptionUKMultiExcel
+Reading data from file : C:\Users\galinabikono\workspace\gitlab\src\excelExportAndFileIO\jeu_de_test_UK.xlsx
+
+févr. 05, 2018 5:34:47 PM test.TestSouscriptionUKMultiExcel testCaseSouscriptionUserExist
+INFOS: Beginning Test :  testCaseSouscriptionUserExist 
+
+févr. 05, 2018 5:34:47 PM test.TestSouscriptionUKMultiExcel testCaseSouscriptionUserExist
+INFOS: for data set 1:{firstname=Robert, Postal Code=SW1A 1AA, Card number=4917610000000000, confirm password=Ps1960m+, City=London, phone number=448006891000, Security number=547, lastname=Lavoisier, Brand=Audi, password=Ps1960m+, Property number / Name=32, Vehicle Insurance Date=jeu., 01 05 00:00:00 2017, Expiry date=mer., 07 01 00:00:00 2020, Registration=BJ81 TBS, Model=A6 IV, Street=avenue du pavé neuf, Country=United Kingdom, VIN=1GCHG35C881135218, date of birth=lun., 11 05 00:00:00 1990}
+
+févr. 05, 2018 5:35:06 PM test.TestSouscriptionUKMultiExcel runSelenium
+INFOS: Product was seleted 
+févr. 05, 2018 5:35:06 PM test.TestSouscriptionUKMultiExcel login
+INFOS: Now in page:https://staging-store-rcibsp.demandware.net/s/RCI_UK/login?original=%2Fs%2FRCI_UK%2Fshipping
+
+févr. 05, 2018 5:40:08 PM test.TestSouscriptionUKMultiExcel logError
+GRAVE: ERROR on field: 'Username' :This field is required.
+
+févr. 05, 2018 5:50:08 PM test.TestSouscriptionUKMultiExcel logError
+INFOS: ENTER 'Password' to: Ps1960m+: OK! 
+
+févr. 05, 2018 5:50:09 PM test.TestSouscriptionUKMultiExcel removeProduct
+INFOS: REMOVE PRODUCT 
+
+févr. 05, 2018 5:50:13 PM test.TestSouscriptionUKMultiExcel removeProduct
+INFOS: REMOVE PRODUCT DONE : OK
+
+févr. 05, 2018 5:50:13 PM test.TestSouscriptionUKMultiExcel logout
+INFOS: Logout begining. To start a new set of data 
+
+févr. 05, 2018 5:55:14 PM test.TestSouscriptionUKMultiExcel testCaseSouscriptionUserExist
+INFOS: End of Test: testCaseSouscriptionUserExist for data set 1 ERROR!
+
+févr. 05, 2018 5:55:14 PM test.TestSouscriptionUKMultiExcel testCaseSouscriptionUserExist
+INFOS: Beginning Test :  testCaseSouscriptionUserExist 
+
+févr. 05, 2018 5:55:14 PM test.TestSouscriptionUKMultiExcel testCaseSouscriptionUserExist
+INFOS: for data set 2:{firstname=Jean , Postal Code=SW1A 2AA, Card number=4917610000000000, confirm password=JSK-man?, City=London, phone number=448006891001, Security number=345, lastname=Renaud, Brand=Audi, Property number / Name=33, Vehicle Insurance Date=dim., 02 05 00:00:00 2017, Expiry date=sam., 08 01 00:00:00 2020, Registration=BJ82 TBS, Model=A6 IV, Street=avenue du pavé neuf, Country=United Kingdom, VIN=WBAWR3C55AP462424, date of birth=ven., 03 02 00:00:00 2018, email=jeanrenauld@mailinator.com}
+
+févr. 05, 2018 5:55:20 PM test.TestSouscriptionUKMultiExcel runSelenium
+INFOS: Product was seleted 
+févr. 05, 2018 5:55:21 PM test.TestSouscriptionUKMultiExcel login
+INFOS: Now in page:https://staging-store-rcibsp.demandware.net/s/RCI_UK/login?original=%2Fs%2FRCI_UK%2Fshipping
+
+févr. 05, 2018 6:05:22 PM test.TestSouscriptionUKMultiExcel logError
+INFOS: ENTER  'Username' to: jeanrenauld@mailinator.com: OK! 
+
+févr. 05, 2018 6:15:22 PM test.TestSouscriptionUKMultiExcel logError
+INFOS: ENTER 'Password' to: null: OK! 
+
+févr. 05, 2018 6:15:23 PM test.TestSouscriptionUKMultiExcel login
+INFOS: Click on button 'Loginfalse'OK! 
+
